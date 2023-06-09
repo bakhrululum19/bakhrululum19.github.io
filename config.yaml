@@ -37,18 +37,6 @@ languages:
                 - name: Get in touch
                   url: mailto:bakhrululum19@gmail.com
                   weight: 5
-                  
-#                - name: Archive
-#                  url: posts/
-#                  weight: 5
-#                - name: Search
-#                  url: search/
-#                  weight: 10
-#                - name: Tags
-#                  url: tags/
-#                  weight: 10
-
-
 outputs:
     home:
         - HTML
