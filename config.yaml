@@ -49,6 +49,11 @@ languages:
 #                  weight: 10
 
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Discover my personal portfolio and project documentation blog, where I showcase my creative endeavors. Dive into a collection of projects that highlight my skills and experience in various fields. Gain insights into my work and explore the outcomes of my creative pursuits."
