@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://blog.packingpanic.com/sitemap.xml
+Sitemap: https://bakhrululum19.github.io/sitemap.xml

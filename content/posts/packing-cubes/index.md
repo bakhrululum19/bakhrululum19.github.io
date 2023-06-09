@@ -2,6 +2,7 @@
 title: "My Experience Using Packing Cubes"
 date: 2023-05-09
 author: "bayu"
+draft: true
 cover:
     image: "bayu-packing-cubes.png"
     alt: "bayu during backpacking and cycling trip"

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Packing Panic - The Blog</title>
-    <link>https://blog.packingpanic.com/categories/</link>
-    <description>Recent content in Categories on Packing Panic - The Blog</description>
+    <title>Categories on Bakhrul Ulum - Blog</title>
+    <link>https://bakhrululum19.github.io/categories/</link>
+    <description>Recent content in Categories on Bakhrul Ulum - Blog</description>
     <image>
-      <url>https://blog.packingpanic.com/papermod-cover.png</url>
-      <link>https://blog.packingpanic.com/papermod-cover.png</link>
+      <url>https://bakhrululum19.github.io/papermod-cover.png</url>
+      <link>https://bakhrululum19.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright 2023 - Packing Panic is a registered trade mark.</copyright><atom:link href="https://blog.packingpanic.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright 2023 - All rights reserved.</copyright><atom:link href="https://bakhrululum19.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
