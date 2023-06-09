@@ -1,0 +1,5 @@
+{{ define "main" }}
+  <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
+  <p>{{ .Site.Params.homeInfoParams.Content | safeHTML }}</p>
+  <img src="{{ .Site.Params.homeInfoParams.Image }}" alt="Image" />
+{{ end }}
