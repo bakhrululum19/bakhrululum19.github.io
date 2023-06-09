@@ -1,0 +1,22 @@
+{{- /*  
+
+  Embed discourse comments
+  https://github.com/packingpanic/confidential/issues/101
+
+ */ -}}
+<div id="engage-cta">
+<p>Do you have questions or comments? You can contact us via the <a href="https://www.packingpanic.com/contact-us" style="box-shadow: 0 1px">contact form</a> or 
+join the public discussion in our community below.</p>
+</div>
+<div id="discourse-comments" style="margin-top: 14px; margin-bottom: 14px;"/>
+
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://babble.packingpanic.com/',
+                     discourseEmbedUrl: '{{ .Permalink }}' };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>

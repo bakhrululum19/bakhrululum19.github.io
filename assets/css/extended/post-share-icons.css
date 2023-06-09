@@ -1,0 +1,13 @@
+/* CSS for the share buttons behind the title */
+.post-underline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.share-buttons{
+    background: none;
+    border: 0;
+    margin: 0;
+}
+
