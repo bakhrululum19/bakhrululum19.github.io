@@ -1,0 +1,70 @@
+baseURL = "https://bakhrululum19.github.io/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "BU's Online Space"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Bakhrul Ulum"
+  headline = "A Passionate Data-driven Digital Marketer | Sustainability enthusiast | Crafting remotely, molding my journey"
+  image = "bakhrul-github.jpg"  # path relative to static directory
+
+  links = [
+      { linkedin = "https://linkedin.com/in/bakhrululum19" },
+      { github = "https://github.com/bakhrululum19" },
+      { instagram = "https://instagram.com/bykefulness" },
+      { "blog" = { href = "/posts", text = "Blog" } },
+      { "resume" = { href = "https://docs.google.com/document/d/1pfGLJ2YgTreqIFYrX0D2DnY3gPn_9N5H/edit?usp=sharing&ouid=114137717951995700486&rtpof=true&sd=true", text = "My Resume" } },
+     { "packing-panic" = { href = "https://packingpanic.com", text = "Current Project: Packing Panic" } },
+      { email = "mailto:bakhrululum19@gmail.com" },
+    # { link = "https://link-to-some-website.com/" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
+
+  [[module.imports]]
+    path = "github.com/jpanther/lynx"
+
