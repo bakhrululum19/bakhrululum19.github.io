@@ -7,6 +7,8 @@ cover:
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     linkFullImages: true
 ---
+![DSC02037-EDIT.jpg](DSC02037-EDIT.jpg)
+Credit: [https://instagram.com/lelunga.id](https://instagram.com/lelunga.id)
 
 Di samping banyaknya pilihan paket dari Travel Agency baik di dalam dan luar negeri yang menawarkan trekking di Nepal dengan harga yang kompetetif, tapi tak sedikit para pendaki yang memilihi trekking secara Independen. Tidak hanya alasan bisa lebih berhemat dari pada harga yang ditawarkan pada Travel Agensi, tapi juga timeline trekking yang bisa lebih fleksibel sesuai dengan ketersediaan waktu. Banyak juga yang beranggapan bahwa merencakan sendiri memberikan kepuasan lebih dari pengalaman yang dibutuhkan. Bagi kalian yang mempunya rencana untuk trekking di Nepal, artikel ini akan memberikan ulasan komprehensif yang tentunya akan bermanfaat untuk rencana liburan di Nepal dari transportasi, akomodasi dan estimasi budget yang perlu disiapkan.
 
