@@ -9,6 +9,8 @@ cover:
 ---
 
 ![DSC02098.JPG](DSC02098.JPG)
+Credit: https://instagram.com/lelunga.id
+
 Embarking on a self-guided trek with friends in the Annapurna region is more than a journey; it's a personal odyssey filled with shared moments and breathtaking landscapes. In this blog post, I'll share my personal motivations for choosing this unique adventure, guide you through practical aspects such as arranging transportation to Pokhara and acquiring permits independently, provide a cost breakdown, and ensure a safe and memorable trekking experience.
 
 ## Overview
