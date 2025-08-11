@@ -1,5 +1,3 @@
 ---
-description: "This is a demo of the Lynx theme for Hugo."
+description: "Mindful Miles - living and working with minimal gear, often on the move."
 ---
-
-View the readme or check out all the link styles available using the links below.

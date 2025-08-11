@@ -1,9 +1,82 @@
+/* Font Awesome demo gradient (unchanged) */
 .link-font-awesome {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  color: #fff;
 }
+
+/* --- BLOG BUTTONS (solid colors) --- */
+/* EN: fresh blue */
+.link-blog-en {
+  background-color: #3B82F6; /* blue-500 */
+  color: #fff;
+}
+.link-blog-en:hover { filter: brightness(1.07); }
+
+/* ID: younger red */
+.link-blog-id {
+  background-color: #EF4444; /* red-500 */
+  color: #fff;
+}
+.link-blog-id:hover { filter: brightness(1.07); }
+
+/* --- BRAND BUTTONS (solid colors) --- */
+.link-lelunga {
+  background-color: #008083;
+  color: #fff;
+}
+.link-lelunga:hover { filter: brightness(1.07); }
+
+.link-packingpanic {
+  background-color: #667c00;
+  color: #fff;
+}
+.link-packingpanic:hover { filter: brightness(1.07); }
+
+/* --- Custom SVG icons via masks ---
+   Put SVGs at:
+     static/icons/lelunga.svg
+     static/icons/packingpanic.svg
+*/
+.link-lelunga .icon svg,
+.link-packingpanic .icon svg {
+  display: none; /* hide theme's placeholder SVG */
+}
+.link-lelunga .icon,
+.link-packingpanic .icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background: currentColor;          /* icon color follows text color */
+  vertical-align: text-bottom;
+}
+.link-lelunga .icon {
+  -webkit-mask: url('/icons/lelunga.svg') no-repeat center / contain;
+          mask: url('/icons/lelunga.svg') no-repeat center / contain;
+}
+.link-packingpanic .icon {
+  -webkit-mask: url('/icons/packingpanic.svg') no-repeat center / contain;
+          mask: url('/icons/packingpanic.svg') no-repeat center / contain;
+}
+
+/* Ensure inline SVGs (if any) inherit text color */
+.link-blog-en .icon svg path,
+.link-blog-id .icon svg path,
+.link-lelunga .icon svg path,
+.link-packingpanic .icon svg path { fill: currentColor !important; }
+
+/* Accessibility: visible keyboard focus for custom buttons */
+.link-blog-en:focus-visible,
+.link-blog-id:focus-visible,
+.link-lelunga:focus-visible,
+.link-packingpanic:focus-visible,
+.link-font-awesome:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255,255,255,.8), 0 0 0 6px rgba(0,0,0,.35);
+}
+
+/* Optional: subtle active press */
+.link-blog-en:active,
+.link-blog-id:active,
+.link-lelunga:active,
+.link-packingpanic:active,
+.link-font-awesome:active { transform: translateY(1px); }

@@ -1,24 +1,29 @@
 theme = "lynx"
-title = "BU's Online Space"
+title = "Mindful Miles"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
+[params]
+  themeColor = "system" # "system", "light", or "dark"
+
 [params.author]
   name = "Bakhrul Ulum"
-  headline = "I will put it later (TODO)"
-  image = "author.jpg"
+  headline = "living and working with minimal gear, often on the move 🎒🚶🏻🚴🏼‍♀️ ⛴️ 🚌 ✈️ 🚆"
+  image = "bu-pic.jpg"
   links = [
-    { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
-    { link = { href = "styles/", text = "All the link styles", target = "_self" } },
-    { github = "https://github.com/jpanther/lynx" },
-    { x = "https://x.com/jpanther" },
-    { font-awesome = { href = "https://fontawesome.com/", text = "FontAwesome" } },
+    { github = "https://github.com/bakhrululum19"},
+    { instagram = "https://instagram.com/bykefulness"},
+    { x = "https://x.com/bakhrululum19" },
+    { blog-en = { href = "/en/posts/", text = "🇬🇧 Mindful Miles – The Blog" } },
+    { blog-id = { href = "/id/posts/", text = "🇮🇩 Blog – Mindful Miles" } },
+    { lelunga = { href = "https://lelunga.id/", text = "lelunga.id", target = "_blank" } },
+    { packingpanic = { href = "https://packingpanic.de", text = "Packing Panic", target = "_blank" } }
   ]
 
 [markup.highlight]
   noClasses = false
 
 [markup.goldmark]
-[markup.goldmark.renderer]
-  unsafe = true
+  [markup.goldmark.renderer]
+    unsafe = true
