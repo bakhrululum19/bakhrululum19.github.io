@@ -13,8 +13,9 @@ disableKinds = ["taxonomy", "term"]
   image = "bu-pic.jpg"
   links = [
     { github = "https://github.com/bakhrululum19"},
+    { linkedin = "https://linkedin.com/bakhrululum19" },
     { instagram = "https://instagram.com/bykefulness"},
-    { x = "https://x.com/bakhrululum19" },
+    { strava = { href = "https://strava.app.link/RguGRgexXVb", text = "Strava", icon = "fa-strava" } },
     { blog-en = { href = "/en/posts/", text = "🇬🇧 Mindful Miles – The Blog" } },
     { blog-id = { href = "/id/posts/", text = "🇮🇩 Blog – Mindful Miles" } },
     { lelunga = { href = "https://lelunga.id/", text = "lelunga.id", target = "_blank" } },

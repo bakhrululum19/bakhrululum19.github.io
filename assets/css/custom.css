@@ -80,3 +80,13 @@
 .link-lelunga:active,
 .link-packingpanic:active,
 .link-font-awesome:active { transform: translateY(1px); }
+
+
+/* --- STRAVA --- */
+.link-strava {
+  background-color: #FC4C02;  /* Strava brand orange */
+  color: #fff;
+}
+.link-strava:hover {
+  filter: brightness(1.07);
+}

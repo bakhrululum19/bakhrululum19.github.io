@@ -6,7 +6,13 @@ tags: ["Travel Tales"]
 featured_image: "/images/journe-through-the-sacred-highlands-of-north-toraja.jpg"
 ---
 
+It has started with my personal issues, having too crowded mind, I have alwayas felt that there are too many noises in my head.
 
+My personal goal to live more mindfully were more challenging due to issue with my screentime myself. Mindless scrolling made it more noises.
+
+In the same time, my love for travelling have led me to different places, that some encounters with people, places nad moments deserve a proper record, especialy for myself. 
+
+It's not my goal for these words got dis
 
 I’m Bakhrul Ulum — a nomadic freelancer who travels with a backpack or a bicycle, from coastal paths to mountain trails, from city streets to quiet ferry decks.
 
@@ -35,3 +41,12 @@ Lightweight Nomadism — living and working with minimal gear, often on the move
 People & Places — encounters worth remembering, landscapes worth pausing for.
 
 Mental Clarity — thoughts on distraction, attention, and living with intention.
+
+
+## Why Mindful Miles
+Alongside my online space hosted here with some updates on my professional work, I decided to name this blog space with "Mindful Miles"
+TO DO
+
+
+## TO DO
+- mention bto support business/places/places
