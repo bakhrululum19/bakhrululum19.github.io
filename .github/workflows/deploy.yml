@@ -1,0 +1,58 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]      # deploy whenever you push to main
+  workflow_dispatch:        # allow manual runs
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Go is needed for Hugo Modules
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.148.0"
+          extended: true
+
+      # (Optional) vendor modules for reproducible builds
+      - name: Hugo mod vendor
+        run: hugo mod vendor
+
+      - name: Build
+        run: hugo --minify --gc
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

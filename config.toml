@@ -1,5 +1,6 @@
 theme = "lynx"
 title = "Mindful Miles"
+baseURL = "https://bakhrululum19.github.io/"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
@@ -15,7 +16,7 @@ disableKinds = ["taxonomy", "term"]
     { github = "https://github.com/bakhrululum19"},
     { linkedin = "https://linkedin.com/bakhrululum19" },
     { instagram = "https://instagram.com/bykefulness"},
-    { strava = { href = "https://strava.app.link/RguGRgexXVb", text = "Strava", icon = "fa-strava" } },
+    { strava = { href = "https://strava.app.link/RguGRgexXVb", text = "Strava", icon = "strava" } },
     { blog-en = { href = "/en/posts/", text = "🇬🇧 Mindful Miles – The Blog" } },
     { blog-id = { href = "/id/posts/", text = "🇮🇩 Blog – Mindful Miles" } },
     { lelunga = { href = "https://lelunga.id/", text = "lelunga.id", target = "_blank" } },
