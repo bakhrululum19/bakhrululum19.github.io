@@ -1,0 +1,28 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo module/vendor files
+.hugo_build.lock
+hugo_stats.json
+/_vendor/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Node/npm (if you ever use Tailwind or PostCSS)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Log files
+*.log
+
+# Backup/temp files
+*~
+*.swp
+*.swo
+
+# VS Code
+.vscode/
