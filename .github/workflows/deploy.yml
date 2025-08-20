@@ -2,8 +2,8 @@ name: Deploy Hugo to GitHub Pages
 
 on:
   push:
-    branches: ["main"]      # deploy whenever you push to main
-  workflow_dispatch:        # allow manual runs
+    branches: ["main"]         # deploy whenever you push to main
+  workflow_dispatch:           # allow manual runs from the Actions tab
 
 permissions:
   contents: read
@@ -18,12 +18,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (with submodules)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: true        # ← IMPORTANT if your theme is a git submodule
 
-      # Go is needed for Hugo Modules
+      # Go is required when using Hugo Modules
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
@@ -32,14 +33,16 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.148.0"
+          hugo-version: "0.148.0"  # match your local version if different
           extended: true
 
-      # (Optional) vendor modules for reproducible builds
+      # Optional: vendor modules for reproducible builds (safe to keep)
       - name: Hugo mod vendor
         run: hugo mod vendor
 
       - name: Build
+        env:
+          HUGO_ENV: production
         run: hugo --minify --gc
 
       - name: Upload artifact
