@@ -1,4 +1,4 @@
-theme = "lynx"
+theme = "github.com/jpanther/lynx"
 title = "Mindful Miles"
 baseURL = "https://bakhrululum19.github.io/"
 
