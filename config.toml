@@ -17,8 +17,6 @@ disableKinds = ["taxonomy", "term"]
     { linkedin = "https://linkedin.com/bakhrululum19" },
     { instagram = "https://instagram.com/bykefulness"},
     { strava = { href = "https://strava.app.link/RguGRgexXVb", text = "Strava", icon = "strava" } },
-    # { blog-en = { href = "/en/posts/", text = "🇬🇧 Mindful Miles – The Blog" } },
-    # { blog-id = { href = "/id/posts/", text = "🇮🇩 Blog – Mindful Miles" } },
     { lelunga = { href = "https://lelunga.id/", text = "lelunga.id", target = "_blank" } },
     { packingpanic = { href = "https://packingpanic.de", text = "Packing Panic", target = "_blank" } }
   ]
