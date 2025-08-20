@@ -1,3 +1,7 @@
+/* =========================
+   HOME BUTTONS & BRANDING
+   ========================= */
+
 /* Font Awesome demo gradient (unchanged) */
 .link-font-awesome {
   background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
@@ -5,50 +9,31 @@
 }
 
 /* --- BLOG BUTTONS (solid colors) --- */
-/* EN: fresh blue */
-.link-blog-en {
-  background-color: #3B82F6; /* blue-500 */
-  color: #fff;
-}
+.link-blog-en { background-color: #3B82F6; color: #fff; }
 .link-blog-en:hover { filter: brightness(1.07); }
 
-/* ID: younger red */
-.link-blog-id {
-  background-color: #EF4444; /* red-500 */
-  color: #fff;
-}
+.link-blog-id { background-color: #EF4444; color: #fff; }
 .link-blog-id:hover { filter: brightness(1.07); }
 
-/* --- BRAND BUTTONS (solid colors) --- */
-.link-lelunga {
-  background-color: #008083;
-  color: #fff;
-}
+/* --- BRAND BUTTONS --- */
+.link-lelunga { background-color: #008083; color: #fff; }
 .link-lelunga:hover { filter: brightness(1.07); }
 
-.link-packingpanic {
-  background-color: #667c00;
-  color: #fff;
-}
+.link-packingpanic { background-color: #667c00; color: #fff; }
 .link-packingpanic:hover { filter: brightness(1.07); }
 
-/* --- Custom SVG icons via masks ---
-   Put SVGs at:
-     static/icons/lelunga.svg
-     static/icons/packingpanic.svg
-*/
+/* Custom SVG icons via masks (put files in static/icons/) */
 .link-lelunga .icon svg,
-.link-packingpanic .icon svg {
-  display: none; /* hide theme's placeholder SVG */
-}
+.link-packingpanic .icon svg { display: none; }
+
 .link-lelunga .icon,
 .link-packingpanic .icon {
-  width: 1em;
-  height: 1em;
+  width: 1em; height: 1em;
   display: inline-block;
-  background: currentColor;          /* icon color follows text color */
+  background: currentColor;
   vertical-align: text-bottom;
 }
+
 .link-lelunga .icon {
   -webkit-mask: url('/icons/lelunga.svg') no-repeat center / contain;
           mask: url('/icons/lelunga.svg') no-repeat center / contain;
@@ -58,35 +43,88 @@
           mask: url('/icons/packingpanic.svg') no-repeat center / contain;
 }
 
-/* Ensure inline SVGs (if any) inherit text color */
+/* Ensure inline SVGs inherit text color */
 .link-blog-en .icon svg path,
 .link-blog-id .icon svg path,
 .link-lelunga .icon svg path,
 .link-packingpanic .icon svg path { fill: currentColor !important; }
 
-/* Accessibility: visible keyboard focus for custom buttons */
+/* Accessibility: keyboard focus ring */
 .link-blog-en:focus-visible,
 .link-blog-id:focus-visible,
 .link-lelunga:focus-visible,
 .link-packingpanic:focus-visible,
 .link-font-awesome:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(255,255,255,.8), 0 0 0 6px rgba(0,0,0,.35);
+  box-shadow: 0 0 0 3px rgba(255,255,255,.8),
+              0 0 0 6px rgba(0,0,0,.35);
 }
 
-/* Optional: subtle active press */
+/* Subtle press effect */
 .link-blog-en:active,
 .link-blog-id:active,
 .link-lelunga:active,
 .link-packingpanic:active,
-.link-font-awesome:active { transform: translateY(1px); }
+.link-font-awesome:active {
+  transform: translateY(1px);
+}
+
+/* Strava button */
+.link-strava { background-color: #FC4C02; color: #fff; }
+.link-strava:hover { filter: brightness(1.07); }
 
 
-/* --- STRAVA --- */
-.link-strava {
-  background-color: #FC4C02;  /* Strava brand orange */
-  color: #fff;
+/* =========================
+   ARTICLE LAYOUT + IMAGES
+   (scoped only inside posts)
+   ========================= */
+
+main article.prose,
+main article .prose {
+  max-width: 72ch;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-.link-strava:hover {
-  filter: brightness(1.07);
+
+main article header { text-align: center; }
+
+main article .prose img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
 }
+
+
+/* =========================
+   ARTICLE LINK COLORS
+   ========================= */
+
+/* Tailwind Typography base link vars (scoped to article) */
+main article .prose { --tw-prose-links: #234e6f; }
+.dark main article .prose { --tw-prose-links: #9ec1de; }
+
+/* Base + visited */
+main article .prose a,
+main article .prose a:visited {
+  color: var(--tw-prose-links) !important;
+  text-decoration: underline;
+  font-weight: 500;
+  outline: none;
+}
+
+/* Hover / focus / active */
+main article .prose a:hover,
+main article .prose a:focus,
+main article .prose a:active {
+  color: #1a364e !important;
+  background-color: #e6f0f7;
+  text-decoration: underline;
+  font-weight: 600;
+  border-radius: 3px;
+  outline: none !important;
+}
+
+/* Harmonize list bullets inside article */
+main article .prose li::marker { color: #234e6f !important; }
+.dark main article .prose li::marker { color: #9ec1de !important; }

@@ -50,3 +50,4 @@ These are all the built-in link styles available in Lynx. Don't forget that you 
 {{< link whatsapp >}}
 {{< link x >}}
 {{< link youtube >}}
+{{< link strava >}}

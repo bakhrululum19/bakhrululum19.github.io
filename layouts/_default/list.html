@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="flex-grow">
+  <article class="prose mx-auto dark:prose-invert pt-10 pb-12">
+    <header class="mb-6">
+      <h1 class="text-3xl font-bold">{{ .Title }}</h1>
+      {{ with .Content }}
+        <div class="mt-4">
+          {{ . }}
+        </div>
+      {{ end }}
+    </header>
+
+    {{ if .Pages }}
+      <ul class="list-disc pl-5 space-y-1">
+        {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Date }}<span class="text-sm text-neutral-500 ml-2">{{ .Format "2006-01-02" }}</span>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <p>No posts yet.</p>
+    {{ end }}
+  </article>
+</main>
+{{ end }}

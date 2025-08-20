@@ -29,3 +29,27 @@ disableKinds = ["taxonomy", "term"]
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true
+# --- Related content so "Read next" can work ---
+[related]
+  threshold = 1
+  includeNewer = true
+  toLower = true
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+  [languages.id]
+    languageName = "Bahasa Indonesia"
+    weight = 2

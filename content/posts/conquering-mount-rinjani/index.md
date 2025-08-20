@@ -2,8 +2,9 @@
 title: "Conquering Mount Rinjani: A Journey of Majestic Heights and Breathtaking Beauty of West Nusa Tenggara"
 date: 2023-08-09
 author: "bayu"
+draft: true
 canonical: "https://blog.packingpanic.com/posts/rinjani/"
-featured_image: "/images/conquering-mount-rinjani.jpg"
+image: "/images/conquering-mount-rinjani.jpg"
 ---
 
 Several times I had plans to experience the thrill of conquering the second highest mountain in Indonesia, and finally, after previous failed attempts, in the second week of July 2023, I had the opportunity to enjoy the beauty of Mount Rinjani in West Nusa Tenggara Province, Indonesia, with my friends.

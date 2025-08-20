@@ -4,8 +4,8 @@ date: 2023-08-30
 author: "bayu"
 canonical: "https://blog.packingpanic.com/posts/packing-for-rinjani/"
 tags: ["Packing Tips", "Travel Tales"]
-cover:
-featured_image: "/images/packing-for-rinjani.jpg"
+image: "/images/packing-for-rinjani.jpg"
+draft: true
 ---
 
 After completing an epic trek on Mount Rinjani, I returned with a sense of happiness and unforgettable memories. The magnificent scenery, lush nature, and the thrill of reaching the summit all became part of my challenging and wondrous journey.

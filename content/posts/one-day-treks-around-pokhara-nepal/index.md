@@ -4,7 +4,8 @@ date: 2024-03-25
 canonical: "https://blog.packingpanic.com/posts/one-day-treks-around-pokhara-nepal/"
 author: "Bayu"
 tags: ["Travel Tales"]
-featured_image: "/images/world-pagoda-in-pokhara.jpg"
+image: "/images/world-pagoda-in-pokhara.jpg"
+draft: true
 ---
 
 Pokhara, the tourism capital of Nepal, is a trekker's paradise. Nestled in a valley surrounded by the majestic Annapurna mountain range, this city offers easy access to some of the most breathtaking natural scenery in the world. If you're looking for a taste of adventure without the commitment of a multi-day trek, Pokhara has plenty of options for short, one-day treks that can be done independently.

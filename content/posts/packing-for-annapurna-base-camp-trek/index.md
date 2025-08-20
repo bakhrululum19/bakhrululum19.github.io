@@ -4,8 +4,8 @@ date: 2023-12-01
 canonical: "https://blog.packingpanic.com/posts/packing-for-annapurna-base-camp-trek/"
 author: "bayu"
 tags: ["Packing Tips", "Travel Tales"]
-cover:
-featured_image: "/images/packing-for-annapurna-basecamp-trek.jpg"
+image: "/images/packing-for-annapurna-basecamp-trek.jpg"
+draft: true
 ---
 
 Embarking on an [independent trek to the Annapurna Base Camp](/posts/annapurna-base-camp-trek/) is a journey that promises not only breathtaking landscapes but also a profound sense of self-discovery. Unlike guided treks, shouldering the responsibility of your gear adds a unique layer to the adventure. In this comprehensive guide, we'll explore the essentials for a successful and enjoyable trek, based on our recent experience, with a keen focus on practicality and comfort.

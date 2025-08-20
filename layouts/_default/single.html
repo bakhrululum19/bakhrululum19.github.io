@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="flex-grow">
+  <article class="prose mx-auto dark:prose-invert pt-10 pb-12">
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl font-extrabold">{{ .Title }}</h1>
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="my-6 mx-auto rounded-2xl" />
+      {{ end }}
+    </header>
+
+    {{ .Content }}
+
+    {{ partial "related.html" . }}
+
+    {{ partial "post-nav.html" . }}
+  </article>
+</main>
+{{ end }}

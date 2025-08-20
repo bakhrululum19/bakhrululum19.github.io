@@ -1,0 +1,8 @@
+<nav class="mt-8 flex flex-wrap gap-4">
+  {{ with .PrevInSection }}
+    <a class="underline" href="{{ .RelPermalink }}">← {{ .Title }}</a>
+  {{ end }}
+  {{ with .NextInSection }}
+    <a class="underline ml-auto" href="{{ .RelPermalink }}">{{ .Title }} →</a>
+  {{ end }}
+</nav>
