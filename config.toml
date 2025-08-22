@@ -14,7 +14,7 @@ disableKinds = ["taxonomy", "term"]
   image = "bu-pic.jpg"
   links = [
     { github = "https://github.com/bakhrululum19"},
-    { linkedin = "https://linkedin.com/bakhrululum19" },
+    { linkedin = "https://linkedin.com/in/bakhrululum19" },
     { instagram = "https://instagram.com/bykefulness"},
     { strava = { href = "https://strava.app.link/RguGRgexXVb", text = "Strava", icon = "strava" } },
     { lelunga = { href = "https://lelunga.id/", text = "lelunga.id", target = "_blank" } },
