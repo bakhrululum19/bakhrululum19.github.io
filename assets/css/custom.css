@@ -1,0 +1,12 @@
+/* Brand buttons (loaded after main.css) */
+.link-lelunga { background-color:#008083; color:#fff; }
+.link-packingpanic { background-color:#016032; color:#fff; }
+.link-strava { background-color:#FC4C02; color:#fff; }
+
+/* Optional: keyboard focus ring */
+.link-lelunga:focus-visible,
+.link-packingpanic:focus-visible,
+.link-strava:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255,255,255,.85), 0 0 0 6px rgba(0,0,0,.35);
+}
