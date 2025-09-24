@@ -4,6 +4,7 @@ baseURL = "https://bakhrululum19.github.io/"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
+defaultContentLanguageInSubdir = false
 
 [params]
   themeColor = "system" # "system", "light", or "dark"
