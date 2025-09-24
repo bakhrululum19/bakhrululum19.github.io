@@ -4,7 +4,9 @@ baseURL = "https://bakhrululum19.github.io/"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
-defaultContentLanguageInSubdir = false
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false   # ✅ root will serve English
 
 [params]
   themeColor = "system" # "system", "light", or "dark"
@@ -28,6 +30,7 @@ defaultContentLanguageInSubdir = false
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true
+
 # --- Related content so "Read next" can work ---
 [related]
   threshold = 1
@@ -41,8 +44,6 @@ defaultContentLanguageInSubdir = false
   [[related.indices]]
     name = "date"
     weight = 10
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
