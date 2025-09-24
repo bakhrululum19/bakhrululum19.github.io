@@ -1,0 +1,53 @@
+theme = "lynx"
+title = "Mindful Miles"
+baseURL = "https://bakhrululum19.github.io/"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  themeColor = "system" # "system", "light", or "dark"
+
+[params.author]
+  name = "Bakhrul Ulum"
+  headline = "living and working with minimal gear, often on the move 🎒🚶🏻🚴🏼‍♀️ ⛴️ 🚌 ✈️ 🚆"
+  image = "bu-pic.jpg"
+  links = [
+    { github = "https://github.com/bakhrululum19"},
+    { linkedin = "https://linkedin.com/in/bakhrululum19" },
+    { instagram = "https://instagram.com/bykefulness"},
+    { strava = { href = "https://strava.app.link/RguGRgexXVb", text = "Strava", icon = "strava" } },
+   ## { lelunga  = { href = "https://lelunga.id/", text = "lelunga.id" } },
+    { packingpanic = { href = "https://packingpanic.de", text = "Packing Panic" } }
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
+# --- Related content so "Read next" can work ---
+[related]
+  threshold = 1
+  includeNewer = true
+  toLower = true
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+  [languages.id]
+    languageName = "Bahasa Indonesia"
+    weight = 2
