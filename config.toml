@@ -6,25 +6,32 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false   # ✅ root will serve English
+defaultContentLanguageInSubdir = false
 
 [permalinks]
-  posts = "/posts/:slug/" # ensures consistent /posts/ and /id/posts/ URLs per language
+  posts = "/posts/:slug/"
+
+# ✅ IMPORTANT: make section pages output HTML (not RSS-only)
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
 
 [params]
-  themeColor = "system" # "system", "light", or "dark"
+  themeColor = "system"
 
 [params.author]
   name = "Bakhrul Ulum"
   headline = "living and working with minimal gear, often on the move 🎒🚶🏻🚴🏼‍♀️ ⛴️ 🚌 ✈️ 🚆"
+  # ✅ Put the image in: static/images/bu-pic.jpg
   image = "bu-pic.jpg"
   links = [
     { github = "https://github.com/bakhrululum19"},
     { linkedin = "https://linkedin.com/in/bakhrululum19" },
     { instagram = "https://instagram.com/bykefulness"},
     { strava = { href = "https://strava.app.link/RguGRgexXVb", text = "Strava", icon = "strava" } },
-   ## { lelunga  = { href = "https://lelunga.id/", text = "lelunga.id" } },
-    { packingpanic = { href = "https://packingpanic.de", text = "Packing Panic" } }
+    { packingpanic = { href = "https://packingpanic.de", text = "Packing Panic" } },
+    { travel = { href = "/posts/", text = "🇬🇧 Travel Notes", icon = "map" } },
+    { travel = { href = "/id/posts/", text = "🇮🇩 Cerita Perjalanan", icon = "map" } }
   ]
 
 [markup.highlight]
@@ -34,7 +41,6 @@ defaultContentLanguageInSubdir = false   # ✅ root will serve English
   [markup.goldmark.renderer]
     unsafe = true
 
-# --- Related content so "Read next" can work ---
 [related]
   threshold = 1
   includeNewer = true
@@ -51,8 +57,13 @@ defaultContentLanguageInSubdir = false   # ✅ root will serve English
 [languages]
   [languages.en]
     languageName = "English"
+    languageCode = "en"
+    contentDir = "content"
     weight = 1
 
   [languages.id]
     languageName = "Bahasa Indonesia"
+    languageCode = "id"
+    contentDir = "content/id"
     weight = 2
+

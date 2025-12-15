@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="mt-10 max-w-2xl mx-auto">
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl font-extrabold">{{ .Title }}</h1>
+      {{ with .Content }}
+        <div class="prose dark:prose-invert mt-4">{{ . }}</div>
+      {{ end }}
+    </header>
+
+    <ul class="space-y-4">
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          <a class="text-xl font-semibold hover:underline" href="{{ .RelPermalink }}">
+            {{ .Title }}
+          </a>
+          <div class="text-sm text-neutral-500">
+            {{ .Date.Format "02 Jan 2006" }}
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </article>
+{{ end }}
