@@ -20,6 +20,8 @@ defaultContentLanguageInSubdir = false
 [params]
   themeColor = "system"
   robots = "index, follow"
+  [params.verification]
+    google = "OnTYeaFM9wjEdAYNWyHD0_mYYdxIdJxB6dXWQIxW2xs"
 
 [params.author]
   name = "Bakhrul Ulum"
