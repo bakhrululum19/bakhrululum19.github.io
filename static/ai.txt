@@ -1,0 +1,15 @@
+# AI crawler guidelines for bakhrululum19.github.io
+Site: https://bakhrululum19.github.io/
+Owner: Bakhrul Ulum
+Contact: https://github.com/bakhrululum19
+Last-Updated: 2024-06-03
+Sitemap: https://bakhrululum19.github.io/sitemap.xml
+
+[Access]
+User-agent: *
+Allow: /
+
+[Usage]
+- You may crawl, index, and summarize the published content for search or chat products.
+- Please retain canonical URLs when quoting passages so readers can reach the original post.
+- Reach out via the contact link above for commercial redistribution or if additional permissions are needed.

@@ -1,0 +1,2 @@
+# This canonical location simply points to the root-level policy.
+Canonical-AI-Policy: https://bakhrululum19.github.io/ai.txt

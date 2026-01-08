@@ -3,6 +3,7 @@ title = "Mindful Miles"
 baseURL = "https://bakhrululum19.github.io/"
 
 enableEmoji = true
+enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 defaultContentLanguage = "en"
@@ -18,6 +19,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   themeColor = "system"
+  robots = "index, follow"
 
 [params.author]
   name = "Bakhrul Ulum"
@@ -67,3 +69,7 @@ defaultContentLanguageInSubdir = false
     contentDir = "content/id"
     weight = 2
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.7

@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow widely used search and AI crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://bakhrululum19.github.io/sitemap.xml
