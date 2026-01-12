@@ -3,7 +3,6 @@ title: "7 Hari Solo Trekking Annapurna Circuit Trek"
 date: 2026-01-10
 author: "BU"
 canonical: "https://tight.fit/posts/solo-annapurna-circuit-trek/"
-draft: true
 tags: ["Travel Tales"]
 image: "/images/solo-trek-in-annapurna-circuit-trek-header.webp"
 ---
