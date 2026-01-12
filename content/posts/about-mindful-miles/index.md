@@ -5,6 +5,7 @@ author: "BU"
 draft: true
 tags: ["Travel Tales"]
 image: "/images/journe-through-the-sacred-highlands-of-north-toraja.jpg"
+slug: "mindful-miles"
 ---
 
 It has started with my personal issues, having too crowded mind, I have alwayas felt that there are too many noises in my head.
