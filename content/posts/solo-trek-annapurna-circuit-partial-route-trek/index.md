@@ -63,10 +63,10 @@ Below is my itineraty:
 | 22/11 | Bus Pokhara → Besisahar, shared jeep to Chame |
 | 23/11 | Chame → Manang (32 km) |
 | 24/11 | Acclimatization hikes around Manang (10 km) |
-| 25/11 | Manang → Tilicho Base Camp |
-| 26/11 | Tilicho BC → Tilicho Lake → Yak Kharka |
-| 27/11 | Yak Kharka → Thorong Phedi |
-| 28/11 | Thorong Phedi → Thorong La → Muktinath |
+| 25/11 | Manang → Tilicho Base Camp (15 Km) |
+| 26/11 | Tilicho BC → Tilicho Lake → Yak Kharka (30,5 Km) |
+| 27/11 | Yak Kharka → Thorong Phedi (7,5 Km) |
+| 28/11 | Thorong Phedi → Thorong La → Muktinath (15,3 Km) |
 | 29/11 | Van Muktinath → Pokhara |
 
 ![Cyclists passing through Manang](/images/cyclists-passing-through-manang.webp)
@@ -101,9 +101,9 @@ While uncomfortable and exhausting, these moments are part of traveling in remot
 
 One of the practical advantages of trekking on the Annapurna Circuit (and generally in other treks in Nepal) is the availability of accommodation along most sections of the trail. The route is supported by a well-established **tea house system**, consisting of lodges and small hotels that provide rooms and meals for trekkers. While standards vary depending on altitude and location, these accommodations make it possible to trek without carrying camping equipment.
 
-Accommodation along the circuit ranges from relatively comfortable lodges at lower elevations to very basic rooms at higher altitudes. As elevation increases, expectations need to adjust accordingly — warmth, shelter, and food become far more important than comfort or amenities. At higher villages, rooms are often unheated, and most social activity takes place in the dining area where heating is available.
+Accommodation along the circuit ranges from relatively comfortable lodges at lower elevations to very basic rooms at higher altitudes. As elevation increases, expectations need to adjust accordingly — warmth, shelter, and food become far more important than comfort or amenities. At higher villages, most social activity takes place in the dining area where heating is available.
 
-Before the trek, I spent time reading recent experiences shared by other trekkers in the Facebook group [**“Backpackers and Travelers in Nepal”**](https://web.facebook.com/groups/393530340984484)  
+Before the trek, I spent time reading recent experiences shared by other trekkers in [the Facebook group](https://web.facebook.com/groups/393530340984484)  
 
 These posts provided useful, up-to-date insights into accommodation conditions, seasonal crowd levels, and which places were operating at the time. Combined with mapping potential overnight stops based on distance and elevation gain, this helped me plan each day realistically while still remaining flexible.
 
@@ -306,12 +306,10 @@ Overall, this budget reflects a realistic cost for a self-guided, tea-house-base
 
 ## Final Thoughts
 
-This was not a checklist trek, nor an attempt to complete the Annapurna Circuit as quickly as possible. It was a **selective and intentional journey** through its most demanding sections, shaped by time constraints, trail conditions, and constant decision-making on the ground.
+I often came across the argument that an Annapurna Circuit trek is considered “unfinished” if it doesn’t follow the full traditional route from start to end. Starting in Chame and finishing in Muktinath, for example, is sometimes seen as incomplete.
 
-Completing the entire circuit is not a prerequisite for understanding its character. Focusing on key segments such as Manang, Tilicho Lake, and Thorong La Pass still offers a deep and honest experience of the Annapurna region, especially when approached with proper acclimatization and respect for altitude.
+In reality, not everyone has the same amount of time, resources, or physical capacity. Every trek is shaped by personal circumstances.
 
-This trek reinforced several realities of high-altitude travel: plans change, conditions are unpredictable, and physical fitness alone is not enough. Good preparation, flexibility, and conservative decision-making matter far more than speed or ambition.
+For me, the value of this journey was never about ticking off the entire circuit. What mattered was moving through the mountains safely, making thoughtful decisions along the way, and coming away with lasting impressions of the landscape and the experience itself.
 
-For solo trekkers in particular, small choices compound quickly. From how you manage transport and accommodation, to how you pace yourself, protect your belongings, and respond to fatigue or illness. Listening to your body, learning from others on the trail, and knowing when to slow down or stop are all part of trekking responsibly in the Himalayas.
-
-In the end, the value of this journey was not measured by distance or completion, but by the ability to move through challenging terrain safely, adapt when things did not go as planned, and come away with a clearer understanding of both the landscape and my own limits.
+In the end, returning safely with meaningful memories and lessons learned is what truly counts.
