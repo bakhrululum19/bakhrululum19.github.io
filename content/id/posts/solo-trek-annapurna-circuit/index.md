@@ -303,8 +303,6 @@ Beberapa catatan dari breakdown ini:
 
 ## Kesan terakhir
 
-## Final Thoughts
-
 Saya cukup sering menemukan “perdebatan” bahwa Annapurna Circuit dianggap belum selesai jika tidak dimulai dari titik awal tradisional dan dituntaskan penuh sampai Pokhara. Misalnya, jika mulai dari Chame dan selesai di Muktinath, trek tersebut dianggap kurang lengkap.
 
 Namun pada kenyataannya, tidak semua orang memiliki waktu, kondisi fisik, atau sumber daya yang sama.
