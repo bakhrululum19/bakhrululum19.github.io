@@ -77,10 +77,16 @@
     {{ hugo.Generator }}
   {{ end }}
   {{/* Me */}}
-  {{ with .Site.Author.name }}<meta name="author" content="{{ . }}" />{{ end }}
-  {{ with .Site.Author.links }}
+  {{ with .Site.Params.author.name }}<meta name="author" content="{{ . }}" />{{ end }}
+  {{ with .Site.Params.author.links }}
     {{ range $links := . }}
-      {{ range $name, $url := $links }}<link href="{{ $url }}" rel="me" />{{ end }}
+      {{ range $name, $value := $links }}
+        {{ if reflect.IsMap $value }}
+          <link href="{{ $value.href }}" rel="me" />
+        {{ else }}
+          <link href="{{ $value }}" rel="me" />
+        {{ end }}
+      {{ end }}
     {{ end }}
   {{ end }}
   {{/* Analytics */}}
