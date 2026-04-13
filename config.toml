@@ -23,6 +23,8 @@ defaultContentLanguageInSubdir = false
   [params.verification]
     google = "OnTYeaFM9wjEdAYNWyHD0_mYYdxIdJxB6dXWQIxW2xs"
 
+[Author]              # ← REQUIRED for Hugo core (fixes your error)
+  name = "Bakhrul Ulum"
 [params.author]
   name = "Bakhrul Ulum"
   headline = "living and working with minimal gear, often on the move 🎒🚶🏻🚴🏼‍♀️ ⛴️ 🚌 ✈️ 🚆"
